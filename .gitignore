@@ -1,0 +1,70 @@
+<<<<<<< HEAD
+# Virtual environment
+venv/
+.venv/
+env/
+
+=======
+>>>>>>> 4941312 (first commit)
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+<<<<<<< HEAD
+*.egg-info/
+dist/
+build/
+*.egg
+=======
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+>>>>>>> 4941312 (first commit)
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+<<<<<<< HEAD
+# Model weights
+=======
+# Model weights & large files
+>>>>>>> 4941312 (first commit)
+*.pth
+*.pt
+*.bin
+*.ckpt
+<<<<<<< HEAD
+
+# OS
+.DS_Store
+Thumbs.db
+=======
+*.safetensors
+*.h5
+
+# macOS
+.DS_Store
+>>>>>>> 4941312 (first commit)
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+<<<<<<< HEAD
+=======
+
+# Logs
+*.log
+logs/
+>>>>>>> 4941312 (first commit)
