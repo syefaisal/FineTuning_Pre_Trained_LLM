@@ -43,16 +43,16 @@ The transformer is written from scratch in [`previous_chapters.py`](previous_cha
                                   │
                                   ▼
         ┌─────────────────────────────────────────────┐
-        │   TransformerBlock  × 24  (pre-norm)          │
-        │   ┌───────────────────────────────────────┐   │
-        │   │ LayerNorm                              │   │
-        │   │ Multi-head causal self-attention (16)  │   │
-        │   │   scaled dot-product + triangular mask │   │
-        │   │ + residual                             │   │
-        │   │ LayerNorm                              │   │
-        │   │ Feed-forward (4× expansion) + GELU     │   │
-        │   │ + residual                             │   │
-        │   └───────────────────────────────────────┘   │
+        │   TransformerBlock  × 24  (pre-norm)        │
+        │   ┌───────────────────────────────────────┐ │
+        │   │ LayerNorm                             │ │
+        │   │ Multi-head causal self-attention (16) │ │
+        │   │   scaled dot-product + triangular mask│ │
+        │   │ + residual                            │ │
+        │   │ LayerNorm                             │ │
+        │   │ Feed-forward (4× expansion) + GELU    │ │
+        │   │ + residual                            │ │
+        │   └───────────────────────────────────────┘ │
         └─────────────────────────────────────────────┘
                                   │
                                   ▼
